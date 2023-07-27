@@ -202,11 +202,13 @@ body{
 }
 
 .tabs__content-item{
+  opacity: 0;
   display: grid;
   grid-template-columns: auto 280px;
   grid-template-rows: auto 150px;
   gap: 40px;
   position: absolute;
+  transition: opacity .3s ease;
 }
 
 .tabs__content-item--active{
